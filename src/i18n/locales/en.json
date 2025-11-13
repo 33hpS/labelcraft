@@ -1,0 +1,739 @@
+{
+  "common": {
+    "home": "Home",
+    "products": "Products",
+    "templates": "Templates",
+    "orders": "Orders",
+    "operator": "Operator",
+    "scanner": "Scanner",
+    "login": "Login",
+    "logout": "Logout",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "create": "Create",
+    "search": "Search",
+    "loading": "Loading...",
+    "noData": "No data",
+    "error": "Error",
+    "success": "Success",
+    "prev": "Previous",
+    "next": "Next",
+    "page": "Page",
+    "add": "Add",
+    "adminPanel": "Admin panel",
+    "light": "Light theme",
+    "dark": "Dark theme",
+    "system": "System",
+    "settings": "Settings"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Personal interface preferences",
+    "appearance": "Appearance",
+    "themeDesc": "Choose your interface theme",
+    "lightDesc": "Light tones with high contrast",
+    "darkDesc": "Dark surfaces with reduced brightness",
+    "systemDesc": "Follow system preferences",
+    "systemNote": "Now: {{mode}}"
+  },
+  "auth": {
+    "loadingSession": "Restoring session...",
+    "permissionDenied": "You don't have permission to view this page.",
+    "accessDeniedTitle": "Access denied"
+  },
+  "nav": {
+    "title": "Label System",
+    "weather": "Weather",
+    "currency": "Exchange Rates"
+  },
+  "home": {
+    "title": "Label Management System",
+    "subtitle": "Professional solution for creating QR codes and printing labels",
+    "stats": {
+      "products": "Total Products",
+      "templates": "Templates",
+      "orders": "Orders",
+      "todayActivity": "Today's Activity"
+    },
+    "recentActivity": "Recent Activity",
+    "recentActivityDesc": "Recent system actions",
+    "quickActions": {
+      "products": {
+        "title": "Product Management",
+        "desc": "Add, edit and search products",
+        "button": "Go to Products"
+      },
+      "templates": {
+        "title": "Label Templates",
+        "desc": "Create and configure print templates",
+        "button": "Manage Templates"
+      },
+      "operator": {
+        "title": "Operator Mode",
+        "desc": "Scan QR codes and print labels",
+        "button": "Open Mode"
+      }
+    }
+  },
+  "products": {
+    "title": "Products",
+    "subtitle": "Product and QR Code Management",
+    "addNew": "Create Product",
+    "search": "Search Products",
+    "searchDesc": "Find product by name",
+    "searchPlaceholder": "Enter product name...",
+    "loading": "Loading products...",
+    "notFound": "Products not found",
+    "empty": "No products",
+    "createFirst": "Create first product",
+    "showing": "Showing",
+    "of": "of",
+  "items": "products",
+  "weight": "Weight",
+  "volume": "Volume",
+    "name": "Name",
+    "barcode": "Barcode",
+    "sku": "SKU",
+    "price": "Price",
+    "manufacturer": "Manufacturer",
+    "created": "Created",
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete",
+    "print": "Print",
+    "qr": "QR Code",
+    "updated": "Product successfully updated",
+    "created_success": "Product successfully created",
+    "deleted": "Product deleted",
+    "deleteConfirm": "Are you sure you want to delete this product?",
+    "deleteDialogTitle": "Delete product \"{{name}}\"?",
+    "deleteDialogDescription": "This action cannot be undone. Related product data will be removed.",
+    "saveError": "Product save error",
+    "deleteError": "Product delete error"
+  },
+  "templates": {
+    "title": "Label Templates",
+    "subtitle": "Create and manage print templates",
+    "addNew": "Create Template",
+  "copy": "Copy",
+    "edit": "Edit",
+    "delete": "Delete",
+    "search": "Search Templates",
+    "searchPlaceholder": "Search by name or description...",
+    "filterAll": "All",
+    "viewModeGrid": "Grid view",
+    "viewModeList": "List view",
+  "loading": "Loading templates...",
+    "empty": "Templates not found",
+    "createFirst": "Create first template",
+  "countSuffix": "templates",
+  "premiumEditor": "Premium Editor",
+  "noDescription": "No description",
+  "view": "View",
+  "copyShort": "Copy",
+  "notFound": "Nothing found",
+  "tryAdjust": "Try changing search or filters",
+  "learnMore": "Learn more",
+    "copied": "Template successfully copied",
+    "deleted": "Template deleted",
+  "deleteDialogTitle": "Delete template \"{{name}}\"?",
+  "deleteDialogDescription": "The template and its versions will be removed. This action cannot be undone.",
+    "deleteConfirm": "Delete template",
+    "copyError": "Template copy error",
+    "deleteError": "Template delete error",
+    "status": {
+      "draft": "Draft",
+      "active": "Active",
+      "archived": "Archived"
+    }
+  },
+  "orders": {
+    "title": "Orders",
+    "subtitle": "Production Order Management",
+    "pageTitle": "Print Orders",
+    "pageSubtitle": "Import production tasks and control label printing",
+    "labelTemplate": "Label Template",
+    "chooseTemplate": "Choose template",
+    "noTemplates": "No templates available",
+    "autoPrint": "Automatic print",
+    "importExcelTitle": "Import from Excel",
+    "importExcelDesc": "Upload a production task file. Only the \"Products\" section with name and quantity will be imported.",
+  "chooseFile": "Choose file",
+  "noFileSelected": "No file selected",
+    "importFile": "Import",
+    "parsing": "Processing file...",
+    "parseError": "Failed to process file",
+    "source": "Source",
+    "unknown": "Unknown",
+    "positions": "Positions",
+    "import": "Import Order",
+    "importFromMoysklad": "Import from MoySklad",
+    "orderNumber": "Order #",
+    "items": "Items",
+    "totalItems": "Total Items",
+    "status": "Status",
+    "print": "Print",
+    "printLabel": "Print Label",
+    "savePdf": "Save PDF",
+    "search": "Search Orders",
+    "searchPlaceholder": "Search by name...",
+    "empty": "Orders not found",
+    "loading": "Loading orders...",
+    "itemName": "Item Name",
+    "plan": "Plan",
+    "extra": "Extra",
+    "actions": "Actions",
+    "quantity": "Quantity",
+    "printed": "Printed",
+    "remaining": "Remaining",
+    "product": "Product",
+    "selectProduct": "Select Product",
+    "notBound": "Not Bound",
+    "bindProduct": "Bind Product",
+    "unbound": "— No binding —",
+    "createdAt": "Created:",
+    "lastPrintedAt": "Last printed:",
+    "orderNoItems": "Order has no items",
+    "loadingItems": "Loading items...",
+    "paginationRange": "Showing {{from}}-{{to}} of {{total}} orders",
+    "titleSendToPrinter": "Send to printer",
+    "titleDownloadPdfToPrint": "Download PDF for printing",
+    "extraPrint": "Extra print",
+    "extraShort": "Extra",
+    "pdfAdmin": "PDF (admin)",
+    "deleteOrder": "Delete Order",
+    "deleteOrderTitle": "Delete order?",
+    "deleteConfirm": "Are you sure you want to delete this order?",
+    "deleteIrreversible": "This action cannot be undone.",
+    "deleteAllItems": "All order items will be deleted.",
+    "confirmDelete": "Yes, delete order",
+    "adminKeyRequired": "Admin key required",
+    "enterAdminKey": "Enter admin key to delete order",
+    "adminKey": "Admin Key",
+    "deleted": "Order deleted",
+    "deleteError": "Order delete error",
+    "noOrdersYet": "No orders uploaded yet",
+    "uploadExcelHint": "Upload an Excel file above to import an order",
+    "allowExtraPrintsTitle": "Allow extra prints",
+    "allowExtraPrintsDesc": "Specify number of extra prints and admin key for {{name}}",
+    "extraQtyLabel": "Number of extra prints",
+    "qtyPlaceholder": "For example: 5",
+    "adminKeyLabel": "Admin key",
+    "adminKeyPlaceholder": "Enter key",
+    "allow": "Allow",
+    "toasts": {
+      "importedCreated": "✓ Order imported. Products created and bound: {{count}}",
+      "importedAllBound": "✓ Order imported. All products already existed and were auto-bound",
+      "importError": "Order import error",
+      "assignBound": "Product bound to item",
+      "assignCleared": "Product binding cleared",
+      "assignUpdateError": "Failed to update item",
+      "noTemplatesToPrint": "No templates available for printing",
+      "templateNotFound": "Selected template not found",
+      "productNotBound": "Product not bound to item",
+      "printForbidden": "Printing forbidden: limit exceeded",
+      "labelPrintedFor": "Label printed for \"{{name}}\"",
+      "printError": "Failed to print label",
+      "extraQtyInvalid": "Enter a valid number of extra prints",
+      "extraAllowed": "Allowed {{qty}} extra prints for \"{{name}}\"",
+      "extraAllowError": "Failed to allow extra prints",
+      "deletedWithTitle": "✓ Order \"{{title}}\" deleted",
+      "pdfAdminOnly": "Only administrator can save PDF without restrictions",
+      "noTemplatesToSave": "No templates available for saving",
+      "pdfSavedFor": "✓ PDF saved for \"{{name}}\"",
+      "pdfSaveError": "PDF save error"
+    }
+  },
+  "operator": {
+    "title": "Operator Mode",
+    "subtitle": "Scan and print labels",
+    "scanQR": "Scan QR Code",
+    "scanInstruction": "Scan product QR code to print label",
+    "printLabel": "Print Label",
+    "selectTemplate": "Select Template",
+    "noTemplates": "No templates available",
+    "productNotFound": "Product not found",
+    "scanError": "Scan error",
+    "sample": {
+      "product1": "Sample product 1",
+      "product2": "Sample product 2",
+      "templateMain": "Main template",
+      "templateSmall": "Small QR code",
+      "unknown": "Unknown code"
+    },
+    "scan": {
+      "productRecognized": "✓ Product \"{{name}}\" recognized! QR: {{qr}}. Ready to print.",
+      "notFoundByQr": "Product with QR \"{{qr}}\" not found in the database",
+      "unknownFormat": "Unknown QR code format",
+      "foundByQr": "✓ Product \"{{name}}\" found by QR: {{qr}}. Ready to print.",
+      "notFoundTextQr": "Product with QR code \"{{qr}}\" not found in the database. Check the code or create the product.",
+      "openCamera": "Camera",
+      "dialogTitle": "QR Code Scanning",
+      "dialogDescription": "Use the phone camera or enter the code manually",
+      "permissionDenied": "Camera access denied",
+      "howTo": {
+        "title": "How to use:",
+        "step1": "Create products in the \"Products\" section",
+        "step2": "Click \"QR code\" on a product and print it",
+        "step3": "On your phone tap \"Enable camera\"",
+        "step4": "Point the camera at the QR code",
+        "step5": "The product is recognized automatically!",
+        "step6": "Click \"Download PDF\" to save the label"
+      },
+      "stats": {
+        "inDb": "In DB:",
+        "products": "products",
+        "templates": "Templates"
+      },
+      "tabManual": "Manual input",
+      "label": "QR/Barcode/SKU",
+      "placeholder": "Enter product code..."
+    },
+    "quickPrintHint": "Quick print by QR. For quota-aware printing, use the Orders page.",
+    "print": {
+      "noScan": "Scan a product QR code first",
+      "noTemplates": "No templates available for printing",
+      "templateNotFound": "Selected template not found",
+      "sent": "Label sent to printer",
+      "error": "Failed to print label"
+    },
+    "pdf": {
+      "noProduct": "No product data to save",
+      "noTemplateSelected": "Select a template to save",
+      "templateNotFound": "Selected template not found",
+      "creating": "Creating PDF for product {{qr}}...",
+      "fontWarn": "Warning: failed to register font for Cyrillic; some characters may render incorrectly.",
+      "saved": "✓ PDF saved! Product: {{qr}}, Template: {{template}}",
+      "error": "PDF creation error: {{msg}}",
+      "testCreated": "Test PDFs created — check downloaded files (font-test.pdf and font-test-raster.pdf).",
+      "testError": "Font test error: {{msg}}"
+    }
+  },
+  "qrScanner": {
+    "scanned": "Code scanned",
+    "startError": "Failed to start camera",
+    "startPrompt": "Click the button to start the camera",
+    "start": "Start camera",
+    "starting": "Starting camera...",
+    "stop": "Stop",
+    "hint": "Point the camera at the QR code and hold the device steady",
+    "hintBeep": "A beep is heard on successful scan",
+    "continuous": "Continuous scanning is enabled"
+  },
+  "warehouse": {
+    "title": "Warehouse",
+    "subtitle": "Goods receiving to warehouse",
+    "create": "Create receipt",
+    "newReceipt": "New receipt",
+    "notes": {
+      "label": "Notes",
+      "placeholder": "Additional information about the receipt..."
+    },
+    "table": {
+      "product": "Product",
+      "quantity": "Quantity"
+    },
+    "totals": {
+      "positions": "Total positions",
+      "units": "Total units"
+    },
+    "empty": {
+      "title": "No products in receipt",
+      "hint": "Click \"Scan QR\" to add products"
+    },
+    "history": {
+      "title": "Receipts history",
+      "subtitle": "All created warehouse receipts",
+      "empty": "No receipts created yet",
+      "number": "Number",
+      "status": "Status",
+      "createdBy": "Created by",
+      "createdAt": "Created at"
+    },
+    "status": {
+      "draft": "Draft",
+      "completed": "Completed",
+      "cancelled": "Cancelled"
+    },
+    "loadError": "Failed to load receipts",
+    "save": {
+      "noItems": "Add at least one product to the receipt",
+      "success": "Receipt saved",
+      "error": "Failed to save receipt"
+    },
+    "view": {
+      "loadError": "Failed to load receipt details",
+      "title": "Receipt {{number}}",
+      "meta": "Created: {{date}} | By: {{name}}"
+    },
+    "complete": {
+      "success": "Receipt completed",
+      "error": "Failed to complete receipt",
+      "action": "Complete receipt"
+    },
+    "quantity": {
+      "minError": "Quantity must be greater than 0"
+    },
+    "scan": {
+      "enterOrScan": "Enter or scan a QR code",
+      "notFound": "Product with code \"{{code}}\" not found",
+      "incremented": "{{name}}: quantity increased to {{qty}}",
+      "added": "Added: {{name}}",
+      "subtitle": "Scan product QR codes or add manually",
+      "open": "Scan QR",
+      "dialogTitle": "QR Code Scanning",
+      "dialogDescription": "Use the phone camera or enter the code manually",
+      "label": "QR/Barcode/SKU",
+      "placeholder": "Enter product code or use a scanner...",
+      "usbHint": "USB scanner: just scan, the code will be processed automatically"
+    },
+    "camera": {
+      "tabCamera": "Camera",
+      "tabManual": "Manual input",
+      "close": "Close scanner"
+    },
+    "export": {
+      "pdf": {
+        "title": "WAREHOUSE RECEIPT",
+        "number": "Number:",
+        "date": "Date:",
+        "createdBy": "Created by:",
+        "notes": "Notes:",
+        "colNo": "#",
+        "colProduct": "Product",
+        "colQty": "Quantity",
+        "total": "TOTAL:",
+        "positions": "Positions:",
+        "units": "Units:",
+        "filenamePrefix": "Receipt",
+        "saved": "PDF saved",
+        "error": "Failed to create PDF"
+      },
+      "excel": {
+        "title": "WAREHOUSE RECEIPT",
+        "number": "Number:",
+        "date": "Date:",
+        "createdBy": "Created by:",
+        "notes": "Notes:",
+        "colNo": "#",
+        "colProduct": "Product",
+        "colQty": "Quantity",
+        "total": "TOTAL:",
+        "positions": "Positions:",
+        "units": "Units:",
+        "sheetName": "Receipt",
+        "filenamePrefix": "Receipt",
+        "saved": "Excel saved",
+        "error": "Failed to create Excel"
+      }
+    }
+  },
+  "scanner": {
+    "title": "QR Code Scanner",
+    "subtitle": "Quick QR code scanning",
+    "startScanning": "Start Scanning",
+    "stopScanning": "Stop",
+    "new": "New",
+    "pdfDownloaded": "PDF downloaded successfully!",
+    "result": "Scan Result",
+    "noCamera": "Camera unavailable",
+    "permissionDenied": "Camera access denied"
+  },
+  "productModal": {
+    "titleCreate": "Create Product",
+    "titleEdit": "Edit Product",
+    "descCreate": "Add a new product to the system",
+    "descEdit": "Make changes to the product",
+    "nameLabel": "Product name *",
+    "namePlaceholder": "Enter product name",
+    "weightLabel": "Weight (kg) *",
+    "volumeLabel": "Volume (L) *",
+    "cancel": "Cancel",
+    "save": "Save",
+    "create": "Create",
+    "nameRequired": "Name is required",
+    "nameMax": "Name must not exceed 200 characters",
+    "weightInvalid": "Weight must be a positive number",
+    "weightFormat": "Weight must have up to 3 decimal places",
+    "volumeInvalid": "Volume must be a positive number",
+    "volumeFormat": "Volume must have up to 3 decimal places"
+  },
+  "qrModal": {
+    "title": "Product QR Code",
+    "scanToPrint": "Scan to print label",
+    "codeLabel": "Product code",
+    "printQR": "Print QR Code",
+    "download": "Download",
+    "howToUse": "How to use:",
+    "step1": "Print this QR code",
+    "step2": "Scan it on the \"Operator\" page",
+    "step3": "The product label will be printed automatically"
+  },
+  "login": {
+    "title": "Login",
+    "subtitle": "Sign in to access the label system",
+    "username": "Username",
+    "password": "Password",
+    "loginButton": "Login",
+    "selectRole": "Select Role",
+    "quickLogin": "Quick Login",
+    "error": "Login error",
+    "success": "Login successful",
+    "demoAccounts": "Demo accounts for testing:",
+    "passwordFormat": "Password format: [role]123 (e.g., admin123)",
+    "rolesInfo": "Roles: Administrator (full access), Manager (orders/analytics), Operator (order operations), Assembler (view and execute).",
+    "invalidCredentials": "Invalid credentials"
+  },
+  "admin": {
+    "users": {
+      "title": "Account management",
+      "subtitle": "Manage system users and access levels",
+      "actions": {
+        "addUser": "Add user",
+        "resetPassword": "Reset password"
+      },
+      "searchPlaceholder": "Search by name, login or role...",
+      "table": {
+        "username": "Login",
+        "displayName": "Name",
+        "role": "Role",
+        "segment": "Segment",
+        "actions": "Actions"
+      },
+      "empty": "No users found",
+      "dialog": {
+        "createTitle": "Create user",
+        "createDescription": "Set credentials and access level for a new user",
+        "editTitle": "Edit user",
+        "editDescription": "Update user information for {{name}}"
+      },
+      "form": {
+        "username": "Login",
+        "displayName": "Display name",
+        "role": "Role",
+        "rolePlaceholder": "Select role",
+        "segment": "Segment",
+        "segmentPlaceholder": "Select segment",
+        "segmentNone": "Without segment",
+        "password": "Password",
+        "confirmPassword": "Confirm password"
+      },
+      "resetPassword": {
+        "title": "Reset password",
+        "description": "Set a new password for the user. They will need it for the next login.",
+        "newPassword": "New password",
+        "confirmPassword": "Confirm password",
+        "confirm": "Reset password"
+      },
+      "deleteDialog": {
+        "title": "Delete user \"{{name}}\"?",
+        "description": "The account will be removed immediately. This action cannot be undone.",
+        "confirm": "Delete"
+      },
+      "toasts": {
+        "created": "User \"{{name}}\" created",
+        "updated": "User \"{{name}}\" updated",
+        "deleted": "User \"{{name}}\" deleted",
+        "passwordReset": "Password reset for \"{{name}}\""
+      },
+      "errors": {
+        "usernameInvalid": "Login must contain at least 3 characters",
+        "usernameExists": "A user with this login already exists",
+        "passwordWeak": "Password must contain at least 6 characters",
+        "passwordMismatch": "Passwords do not match",
+        "lastAdmin": "At least one administrator must remain in the system",
+        "notFound": "User not found",
+        "unknown": "Something went wrong. Please try again."
+      }
+    }
+  },
+  "actions": {
+    "product_created": "Product Created",
+    "product_updated": "Product Updated",
+    "product_deleted": "Product Deleted",
+    "template_created": "Template Created",
+    "template_updated": "Template Updated",
+    "template_deleted": "Template Deleted",
+    "order_created": "Order Created",
+    "order_imported": "Order Imported",
+    "order_deleted": "Order Deleted",
+    "label_printed": "Label Printed",
+    "template_version_saved": "Template Version Saved",
+    "template_version_restored": "Template Version Restored"
+  },
+  "profile": {
+    "changePassword": {
+      "action": "Change password",
+      "title": "Change password",
+      "description": "Enter your current password and set a new one.",
+      "current": "Current password",
+      "new": "New password",
+      "confirm": "Confirm new password",
+      "submit": "Change password",
+      "success": "✓ Password updated",
+      "errors": {
+        "weak": "Password must contain at least 6 characters",
+        "mismatch": "Passwords do not match",
+        "invalidCurrent": "Current password is incorrect",
+        "unknown": "Failed to change password. Try again."
+      }
+    }
+  },
+  "roles": {
+    "admin": "Administrator",
+    "manager": "Manager",
+    "operator": "Operator",
+    "warehouse": "Warehouse",
+    "assembler": "Assembler",
+    "assemblerLux": "Assembler (Lux)",
+    "assemblerEconom": "Assembler (Econom)"
+  },
+  "segments": {
+    "lux": "Lux segment",
+    "econom": "Econom segment"
+  },
+  "templateEditor": {
+    "title": "Template Editor",
+    "defaultTemplateName": "New Template",
+    "tabs": {
+      "design": "Design",
+      "settings": "Settings"
+    },
+    "addElement": "Add element",
+    "types": {
+      "text": "Text",
+      "qrcode": "QR Code",
+      "image": "Image",
+      "rectangle": "Rectangle",
+      "barcode": "Barcode"
+    },
+    "elementProps": "Element properties",
+    "binding": "Data binding",
+    "staticText": "Static text",
+    "fields": {
+      "productName": "Product name",
+      "price": "Price",
+      "weightVolume": "Weight/Volume",
+      "volume": "Volume",
+      "unit": "Unit",
+  "sku": "SKU",
+      "manufacturer": "Manufacturer",
+      "barcode": "Barcode",
+      "expiryDate": "Expiry date",
+      "productDate": "Production date",
+      "printDate": "Print date (DD.MM.YYYY)",
+      "printDateTime": "Print date & time",
+      "orderName": "Order name",
+      "currentDate": "Current date",
+      "currentDateTime": "Current date/time",
+      "batchNumber": "Batch number",
+      "orderNameUpper": "Order name (upper)"
+    },
+    "text": {
+      "new": "New text",
+      "placeholder": "Enter text or use {{field}}",
+      "hint": "Use: {{name}}, {{price}}, {{orderName}}, {{printDate}}"
+    },
+    "fontSize": "Font size",
+    "fontWeight": {
+      "label": "Weight",
+      "normal": "Normal",
+      "bold": "Bold"
+    },
+    "fontFamily": "Font",
+    "align": {
+      "horizontal": "Horizontal alignment",
+      "left": "Left",
+      "center": "Center",
+      "right": "Right",
+      "usernamePlaceholder": "user@factory.com",
+      "passwordPlaceholder": "Enter your password",
+      "vertical": "Vertical alignment",
+      "top": "Top",
+      "middle": "Middle",
+      "bottom": "Bottom"
+    },
+    "barcode": {
+      "source": "Data source",
+      "hint": "Barcode is generated automatically",
+      "error": "Barcode error",
+      "sourceOptions": {
+        "barcode": "Product barcode",
+        "sku": "SKU",
+        "name": "Product name"
+      }
+    },
+    "qrcode": {
+      "source": "QR Code data source",
+      "hint": "QR Code will contain the selected product field"
+    },
+    "image": {
+      "upload": "Upload image",
+      "supported": "Supported: JPG, PNG, GIF, SVG",
+      "uploaded": "Image uploaded",
+      "uploadError": "Image upload error"
+    },
+    "coords": {
+      "x": "X (mm)",
+      "y": "Y (mm)",
+      "width": "Width (mm)",
+      "height": "Height (mm)"
+    },
+    "margins": {
+      "title": "Margins (mm)",
+      "top": "Top",
+      "right": "Right",
+      "bottom": "Bottom",
+      "left": "Left"
+    },
+    "preview": {
+      "title": "Preview"
+    },
+    "toggle": {
+      "gridOn": "Grid: On",
+      "gridOff": "Grid: Off",
+      "snapOn": "Snap: On",
+      "snapOff": "Snap: Off",
+      "guidesOn": "Guides: On",
+      "guidesOff": "Guides: Off"
+    },
+    "previewButton": "Preview",
+    "reset": "Reset",
+    "list": {
+      "title": "Template elements"
+    },
+    "info": {
+      "title": "Info",
+      "size": "Size:",
+      "dpi": "DPI:",
+      "status": "Status:"
+    },
+    "hotkeys": {
+      "title": "Hotkeys",
+      "undo": "Undo:",
+      "redo": "Redo:",
+      "delete": "Delete:",
+      "duplicate": "Duplicate:",
+      "move": "Move:",
+      "shift": "× 5 mm",
+      "deselect": "Deselect:"
+    },
+    "movement": {
+      "moveUp": "Move up",
+      "moveDown": "Move down",
+      "delete": "Delete"
+    },
+    "settings": {
+      "name": "Template name",
+      "description": "Description",
+      "status": "Template status",
+      "statusPlaceholder": "Select status"
+    },
+    "fullscreen": {
+      "enter": "Fullscreen",
+      "exit": "Exit fullscreen"
+    }
+  }
+}

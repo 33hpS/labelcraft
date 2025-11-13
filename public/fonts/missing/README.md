@@ -1,0 +1,1 @@
+This folder contains missing fonts downloaded for PDF rendering compatibility. Fonts include Inter, Open Sans, Lato, Montserrat, Poppins, Playfair Display, Merriweather, Roboto Mono, Courier New, Arial, and Times New Roman.

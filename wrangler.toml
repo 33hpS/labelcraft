@@ -1,0 +1,24 @@
+name = "labelcraft"
+main = "worker/index.js"
+compatibility_date = "2024-10-11"
+
+[assets]
+directory = "./dist"
+
+[triggers]
+# каждые 10 минут пересчитываем просрочки
+crons = ["*/10 * * * *"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "productlabelerpro"
+database_id = "6bcefdbd-4109-4545-b521-d42694b7144c"
+
+[[r2_buckets]]
+binding = "R2_BUCKET"
+bucket_name = "productlabelerpro"
+
+# [vars]
+# Moved to .dev.vars for security
+# OPENAI_API_KEY and ADMIN_KEY should be set in Cloudflare Dashboard > Workers > Settings > Variables
+# For local development, use .dev.vars file
